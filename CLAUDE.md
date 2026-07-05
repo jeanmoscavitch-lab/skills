@@ -42,3 +42,17 @@ Every `SKILL.md` is either user-invoked (`disable-model-invocation: true`, reach
 `CONTEXT.md` is the project glossary — use its terms when writing or editing skills: **Issue tracker** (not "backlog manager" or "backlog backend"), **Issue** (not "ticket"), **Triage role**. Architecture decisions live in `docs/adr/`.
 
 `.out-of-scope/` documents feature requests that have been deliberately rejected (e.g. niche issue-tracker backends, hard caps on grilling questions, a verify mode for setup). Check it before implementing a request in those areas, and add a new entry when rejecting a recurring class of request.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues (`jeanmoscavitch-lab/skills`); external PRs are not a triage surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical triage roles map to Portuguese label strings (`precisa-triagem`, `aguardando-info`, …). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout: one `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
