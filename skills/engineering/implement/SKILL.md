@@ -10,6 +10,6 @@ Use /tdd where possible, at pre-agreed seams.
 
 Run typechecking regularly, single test files regularly, and the full test suite once at the end.
 
-Once done, use /review to review the work.
+Once done, review the work against the PRD or issues it came from, and against the repo's coding standards. Use /review if it's installed.
 
 Commit your work to the current branch.
